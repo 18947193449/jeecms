@@ -258,7 +258,7 @@ public class CmsStatisticAct {
 			List<Object[]> li=resultMap.get(columnValue);
 			Integer total=0;
 			for(Object[]array:li){
-				total+=(Long)array[0];
+				total+=(int)array[0];
 			}
 			totalMap.put(columnValue, total);
 		}
