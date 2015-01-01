@@ -24,7 +24,7 @@ import org.springframework.util.Assert;
 /**
  * Ant Zip工具类
  * 
- * @author liufang
+ * @author wanging
  * 
  */
 public class AntZipUtils {
